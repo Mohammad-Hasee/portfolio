@@ -1,0 +1,699 @@
+@media (min-width:1200px) and (max-width:1400px) {
+
+  /* for hero section */
+  .hero {
+    padding: 100px 0px 100px 0px;
+  }
+
+  .container-div {
+    width: 350px;
+    height: 380px;
+    background-color: var(--hover-color);
+  }
+
+  .hero-poster {
+    margin: -100px 0px 0px 200px;
+  }
+
+  .hero-poster img {
+    width: 350px;
+    height: 380px;
+  }
+
+  .hero .content-area .title {
+    padding: 0px 100px 0px 40px;
+  }
+
+  .hero .content-area .title h1 {
+    font-size: 40px;
+  }
+
+  /* for navbar section */
+  .nav-item a {
+    font-size: 16px;
+  }
+}
+
+
+@media (min-width:1024px) and (max-width:1199.98px) {
+
+  /* for hero section */
+  .hero {
+    padding: 50px 0px 50px 0px;
+  }
+
+  .container-div {
+    width: 300px;
+    height: 350px;
+    background-color: var(--hover-color);
+  }
+
+  .hero-poster {
+    margin: -50px 0px 0px 200px;
+  }
+
+  .hero-poster img {
+    width: 300px;
+    height: 350px;
+  }
+
+  .hero .content-area .title {
+    padding: 0px 75px 0px 30px;
+  }
+
+  .hero .content-area .title h1 {
+    font-size: 30px;
+  }
+
+  .hero .content-area .title h2 {
+    font-size: 25px;
+  }
+
+  .hero .content-area .title p {
+    font-size: 14px;
+    padding-top: 20px;
+  }
+
+  /* for navbar section */
+  .nav-item a {
+    font-size: 14px;
+  }
+
+  .navbar-brand {
+    font-size: 16px;
+    margin-left: 10px !important;
+  }
+
+  .btn-lg {
+    --bs-btn-padding-x: 1.50rem;
+  }
+
+}
+
+
+
+
+
+@media (min-width:992px) and (max-width:1023.98px) {
+
+  /* for hero section */
+  .hero {
+    padding: 50px 0px 50px 0px;
+  }
+
+  .container-div {
+    width: 300px;
+    height: 350px;
+  }
+
+  .hero-poster {
+    margin: -50px 0px 0px 200px;
+  }
+
+  .hero-poster img {
+    width: 300px;
+    height: 350px;
+  }
+
+  .hero .content-area .title {
+    padding: 0px 75px 0px 30px;
+  }
+
+  .hero .content-area .title h1 {
+    font-size: 30px;
+  }
+
+  .hero .content-area .title h2 {
+    font-size: 25px;
+  }
+
+  .hero .content-area .title p {
+    font-size: 14px;
+    padding-top: 20px;
+  }
+
+  .hero .container {
+    padding: 50px 0px;
+  }
+
+  /* for navbar section */
+  .nav-item a {
+    font-size: 14px;
+  }
+
+  .navbar-brand {
+    font-size: 16px;
+    margin-left: 10px !important;
+  }
+
+  .btn-lg {
+    --bs-btn-padding-x: 1.50rem;
+  }
+
+  .nav-item {
+    padding: 8px;
+  }
+}
+
+
+
+
+
+
+@media (min-width:768px) and (max-width:991.98px) {
+
+  /* for hero section */
+  .hero {
+    padding: 50px 0px 50px 0px;
+  }
+
+  .container-div {
+    margin-left: -125px;
+  }
+
+  .hero-poster {
+    margin: -100px 0px 0px 125px;
+  }
+
+  .hero .content-area .title {
+    padding: 30px 80px 0px 40px;
+    text-align: center;
+  }
+
+  /* for navbar section */
+  /* button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    margin-right: 75px !important;
+  } */
+
+  /* for about me */
+  .about-content .content{
+    text-align: center;
+  }
+  /* education section */
+  .landmark{
+    text-align: center;
+  }
+  /* for skills section */
+  .skill-content{
+    padding: 0px 80px 0px 80px;
+    text-align: center;
+  }
+  /* for servise section */
+  .service .title {
+    font-size: 18px;
+    padding: 0px 10px 30px 10px;
+  }
+}
+
+
+
+
+@media (min-width:576px) and (max-width:767.98px) {
+
+  /* for hero section */
+  .hero {
+    padding: 50px 0px 50px 0px;
+  }
+
+  .hero .content-area .title {
+    padding: 30px 80px 0px 40px;
+    text-align: center;
+  }
+
+  .btn-outline-secondary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero .content-area .title {
+    padding: 30px 40px 0px 40px;
+  }
+
+  .hero-poster {
+    margin: 0px 0px 0px 0px;
+  }
+
+  .container-div {
+    margin-left: 0px;
+  }
+
+  /* for navbar section */
+  /* button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    margin-right: 75px !important;
+  } */
+
+   /* for about me */
+   .about-content .content{
+    text-align: center;
+  }
+  /* for education */
+  .landmark{
+    text-align: center;
+  }
+   /* for skills section */
+   .skill-content{
+    padding: 0px 50px 0px 50px;
+    text-align: center;
+  }
+  .service .title {
+    font-size: 18px;
+    padding: 0px 10px 30px 10px;
+  }
+}
+
+
+
+@media (min-width:425px) and (max-width:575.98px) {
+
+  /* for hero section */
+  .hero .content-area .title h2 {
+    font-size: 20px;
+  }
+
+  .hero .content-area .title h1 {
+    font-size: 30px;
+  }
+
+  .hero {
+    padding: 50px 0px 50px 0px;
+  }
+
+  .hero .content-area .title {
+    padding: 30px 80px 0px 40px;
+    text-align: center;
+  }
+
+  .btn-outline-secondary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero .content-area .title {
+    padding: 30px 40px 0px 40px;
+  }
+
+  .hero-poster {
+    margin: 0px 0px 0px 0px;
+  }
+
+  .container-div {
+    margin-left: 0px;
+  }
+  .container-div {
+    width: 350px;
+    height: 380px;
+    background-color: var(--hover-color);
+  }
+
+  .hero-poster img {
+    width: 350px;
+    height: 380px;
+  }
+  /* for navbar section */
+  .nav-item a {
+    font-size: 14px;
+  }
+
+  .navbar-brand {
+    font-size: 16px;
+    margin-left: 10px !important;
+  }
+
+  /* button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    margin-right: 75px !important;
+  } */
+
+    /* for about me */
+    .about-content .content{
+      text-align: center;
+    }
+    .about-content .title h1 {
+      font-size: 25px;
+  }
+  .row {
+    margin-top: calc(-0* var(--bs-gutter-y));
+    margin-right: calc(-.0* var(--bs-gutter-x));
+    margin-left: calc(-.0* var(--bs-gutter-x));
+    }
+
+     /* for education */
+  .landmark{
+    text-align: center;
+  }
+  .my-journey h2 {
+    font-size: 25px;
+  }
+   /* for skills section */
+   .skill-content{
+    padding: 0px 30px 0px 30px;
+    text-align: center;
+  }
+  .skills h1{
+    font-size: 20px;
+   }
+   .skill-content h5{
+    font-size: 16px;
+  }
+  /* for portfolio section */
+  .protfolio h1 {
+    font-size: 20px;
+  }
+  .service .title {
+    font-size: 18px;
+    padding: 0px 10px 30px 10px;
+  }
+}
+
+
+@media (min-width:375px) and (max-width:424.98px) {
+
+  /* for hero section */
+  .container-div {
+    width: 250px;
+    height: 250px;
+    background-color: var(--hover-color);
+  }
+
+  .hero-poster img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .hero .content-area .title h2 {
+    font-size: 20px;
+  }
+
+  .hero .content-area .title h1 {
+    font-size: 30px;
+  }
+
+  .hero {
+    padding: 50px 0px 50px 0px;
+  }
+
+  .hero .content-area .title {
+    padding: 30px 80px 0px 40px;
+    text-align: center;
+  }
+
+  .btn-outline-secondary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero .content-area .title {
+    padding: 30px 40px 0px 40px;
+  }
+
+  .hero-poster {
+    margin: 0px 0px 0px 0px;
+  }
+
+  .container-div {
+    margin-left: 0px;
+  }
+
+  .hero-poster {
+    padding-top: 0px;
+  }
+
+  /* for navbar section */
+  .nav-item a {
+    font-size: 14px;
+  }
+
+  .navbar-brand {
+    font-size: 14px;
+    margin-left: -30px !important;
+  }
+
+  /* button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    margin-right: 20px !important;
+  } */
+
+    /* for about me */
+    .about-content .content{
+      text-align: center !important;
+    }
+    .about-content .title h1 {
+      font-size: 25px;
+      text-align: center;
+  }
+  .about-content .title h1 {
+    font-size: 25px;
+}
+  .resume {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .row {
+    margin-top: calc(-0* var(--bs-gutter-y));
+    margin-right: calc(-.0* var(--bs-gutter-x));
+    margin-left: calc(-.0* var(--bs-gutter-x));
+    }
+   /* for education */
+   .landmark{
+    text-align: center;
+  }
+  .my-journey h2 {
+    font-size: 25px;
+  }
+   /* for skills section */
+   .skill-content{
+    padding: 0px 20px 0px 20px;
+    text-align: center;
+  }
+  .skills h1{
+    font-size: 20px;
+   }
+   .skill-content h5{
+    font-size: 16px;
+  }
+  /* for portfolio section */
+  .protfolio h1 {
+    font-size: 20px;
+  }
+   /* for servise section */
+   .service .title {
+    font-size: 12px;
+    padding: 0px 10px 30px 10px;
+  }
+  .service .title h1 {
+    font-size: 20px;
+  }
+  .card .content p {
+    text-align: justify;
+  }
+}
+
+
+
+@media (min-width:250px) and (max-width:374.98px) {
+
+  /* for hero section */
+  .container-div {
+    width: 200px;
+    height: 200px;
+    background-color: var(--hover-color);
+  }
+
+  .hero-poster img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .hero .content-area .title h2 {
+    font-size: 20px;
+  }
+
+  .hero .content-area .title h1 {
+    font-size: 30px;
+  }
+
+  .hero {
+    padding: 50px 0px 50px 0px;
+  }
+
+  .hero .content-area .title {
+    padding: 30px 80px 0px 40px;
+    text-align: center;
+  }
+
+  .btn-outline-secondary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero .content-area .title {
+    padding: 30px 40px 0px 40px;
+  }
+
+  .hero-poster {
+    margin: 0px 0px 0px 0px;
+  }
+
+  .container-div {
+    margin-left: 0px;
+  }
+
+  .hero-poster {
+    padding-top: 0px;
+  }
+
+  /* for navbar section */
+  .nav-item a {
+    font-size: 14px;
+  }
+
+  .navbar-brand {
+    font-size: 14px;
+    margin-left: -30px !important;
+  }
+
+  /* button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    margin-right: 20px !important;
+  } */
+
+    /* for about me */
+    .about-content .content{
+      text-align: center !important;
+    }
+    .about-content .title h1 {
+      font-size: 25px;
+      text-align: center;
+  }
+  .resume {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .row {
+    margin-top: calc(-0* var(--bs-gutter-y));
+    margin-right: calc(-.0* var(--bs-gutter-x));
+    margin-left: calc(-.0* var(--bs-gutter-x));
+    }
+   /* for education */
+   .landmark{
+    text-align: center;
+  }
+  .my-journey h2 {
+    font-size: 25px;
+  }
+   /* for skills section */
+   .skills h1{
+    font-size: 20px;
+   }
+   .skill-content h5{
+    font-size: 16px;
+  }
+   .skill-content{
+    padding: 0px 10px 0px 10px;
+    text-align: center;
+  }
+  /* for portfolio section */
+  .protfolio h1 {
+    font-size: 20px;
+  }
+  /* for servise section */
+  .service .title {
+    font-size: 12px;
+    padding: 0px 10px 30px 10px;
+  }
+  .service .title h1 {
+    font-size: 20px;
+  }
+  .card .content p {
+    text-align: justify;
+  }
+}
+
+
+
+
+@media (min-width:100px) and (max-width:249.98px) {
+
+  /* for hero section */
+  .container-div {
+    width: 100px;
+    height: 100px;
+    background-color: var(--hover-color);
+  }
+
+  .hero-poster img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .hero .content-area .title h2 {
+    font-size: 20px;
+  }
+
+  .hero .content-area .title h1 {
+    font-size: 30px;
+  }
+
+  .hero {
+    padding: 50px 0px 50px 0px;
+  }
+
+  .hero .content-area .title {
+    padding: 30px 80px 0px 40px;
+    text-align: center;
+  }
+
+  .btn-outline-secondary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero .content-area .title {
+    padding: 30px 40px 0px 40px;
+  }
+
+  .hero-poster {
+    margin: 0px 0px 0px 0px;
+  }
+
+  .container-div {
+    margin-left: 0px;
+  }
+
+  .hero-poster {
+    padding-top: 0px;
+  }
+
+  .row {
+    margin-right: calc(-.0* var(--bs-gutter-x));
+    margin-left: calc(-.0* var(--bs-gutter-x));
+  }
+
+  .download a {
+    padding: 0px;
+  }
+}

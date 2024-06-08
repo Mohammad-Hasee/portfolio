@@ -1,0 +1,579 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --primary-color: #F6F5FC;
+  --secondary-color: #1c55f2;
+  --bd-color: rgb(59, 235, 220);
+  --about-me-background-color: #D5D7D6;
+  --black-color: #222427;
+  --hover-color: #a9a9a9;
+  --education-background-color: #D9EEE1;
+  --white-color: #ffffff;
+  --font-family-poppins: "Poppins", sans-serif;
+  --font-family-open: "Open Sans", sans-serif;
+  --font-family-roboto: "Roboto", sans-serif;
+}
+
+.btn-light {
+  --bs-btn-border-color: black;
+}
+
+ul {
+  margin: 0;
+}
+
+ol,
+ul {
+  padding-left: 0rem;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-info ul li {
+  display: inline-block;
+}
+
+.btn-info {
+  --bs-btn-bg: var(--primary-color);
+  --bs-btn-border-color: #fff;
+  --bs-btn-hover-bg: var(--primary-color);
+  --bs-btn-hover-border-color: #fff;
+  --bs-btn-active-bg: #fff;
+  --bs-btn-active-border-color: #fff;
+}
+
+.btn-lg {
+  --bs-btn-padding-x: 2.75rem;
+  --bs-btn-padding-y: 0.100rem;
+  --bs-btn-font-size: 1rem;
+}
+
+/* common code ending here */
+/* hero section starts here */
+.hero {
+  padding: 145px 0px 145px 0px;
+}
+
+.hero-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.container-div {
+  width: 400px;
+  height: 430px;
+  background-color: var(--hover-color);
+}
+
+.hero-poster img {
+  width: 400px;
+  height: 430px;
+}
+
+.hero-poster {
+  position: absolute;
+  margin: -100px 0px 0px 250px;
+}
+
+.hero .content-area .title {
+  padding: 0px 80px 0px 40px;
+}
+
+.hero .content-area .title h1 {
+  font-size: 50px;
+  font-family: var(--font-family-poppins);
+  font-weight: 500;
+}
+
+.hero .content-area .title h2 {
+  font-size: 30px;
+  font-weight: 400;
+  font-family: var(--font-family-poppins);
+}
+
+.hero .content-area .title p {
+  font-size: 16px;
+  font-family: var(--font-family-open);
+  font-weight: 400;
+  line-height: 1.4rem;
+  padding-top: 50px;
+  text-align: justify;
+}
+
+[type=button]:not(:disabled),
+[type=reset]:not(:disabled),
+[type=submit]:not(:disabled),
+button:not(:disabled) {
+  cursor: pointer;
+  border-radius: 0%;
+}
+
+.contact {
+  padding-top: 50px;
+}
+
+.contact ul li {
+  display: inline-block;
+}
+
+.download {
+  background-color: var(--black-color);
+}
+
+.download:hover {
+  background-color: var(--white-color);
+}
+
+.download a {
+  border: 1px solid black;
+  padding: 10px 20px 10px 20px;
+  color: var(--white-color);
+}
+
+.download a:hover {
+  color: var(--black-color);
+}
+
+.fa-download {
+  padding-left: 15px;
+}
+
+.fa-brand {
+  padding: 10px;
+  font-size: 15px;
+  color: var(--white-color);
+  border-radius: 50%;
+  background-color: var(--black-color);
+}
+
+.fa-brand:hover {
+  background-color: var(--white-color);
+  color: var(--black-color);
+}
+
+/* hero section ending here */
+
+
+
+
+/* navbar section starts here  */
+.nav-item {
+  padding: 10px;
+}
+
+.navbar-brand span {
+  color: var(--secondary-color);
+}
+
+.navbar-brand {
+  margin-top: -8px;
+}
+
+.nav-item a {
+  font-size: 18px;
+  font-family: var(--font-family-open);
+}
+
+/* navbar section ending here */
+
+
+
+
+/* about me section starts here */
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0px;
+  background-color: var(--primary-color);
+}
+
+.my-image img {
+  width: 200px;
+  height: 200px;
+}
+
+.nick-name h2 {
+  font-size: 26px;
+  font-family: var(--font-family-poppins);
+  font-weight: 600;
+  text-align: center;
+  padding: 50px 0px 0px 0px;
+  line-height: 0.5rem;
+}
+
+.nick-name p {
+  font-size: 24px;
+  font-family: var(--font-family-poppins);
+  font-weight: 300;
+  text-align: center;
+}
+
+.email-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.email-me .download {
+  color: var(--white-color);
+}
+
+.email-me .download:hover {
+  color: var(--black-color);
+}
+
+.about-image .contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.about-image .contact .fa-brand {
+  margin: 6px;
+}
+
+.about-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-content .title h1 {
+  font-size: 38px;
+  font-family: var(--font-family-poppins);
+  font-weight: 700;
+  letter-spacing: 10px;
+}
+
+.about-content .title p {
+  font-size: 15px;
+  font-family: var(--font-family-open);
+  font-weight: 400;
+}
+
+.resume {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.resume .download {
+  color: var(--white-color);
+}
+
+.resume .download:hover {
+  color: var(--black-color);
+}
+
+/* about me section ends here */
+
+
+
+
+/* education section starts here */
+.education {
+  padding: 50px 0px;
+  margin-top: 50px;
+}
+.education .container{
+  background-color: #F3ECEA;
+  padding: 50px 0px;
+  
+}
+.my-journey {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-journey h2 {
+  font-size: 38px;
+  font-family: var(--font-family-poppins);
+  font-weight: 700;
+  letter-spacing: 10px;
+  padding: 30px 0px;
+  text-align: center;
+}
+
+.journey {
+  margin: 0 auto;
+}
+
+.landmark .icon {
+  font-size: 20px;
+  padding: 30px 0px 0px 0px;
+}
+
+.landmark .title h4 {
+  font-size: 18px;
+  font-family: var(--font-family-poppins);
+  font-weight: 500;
+}
+
+.landmark .title p {
+  font-size: 18px;
+  font-family: var(--font-family-open);
+  font-weight: 500;
+}
+
+.parents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* education section ends here */
+
+
+
+
+/* skills section starts here */
+.progress,
+.progress-stacked {
+  --bs-progress-height: 1.3rem;
+  --bs-progress-font-size: .75rem;
+}
+.my-skills{
+  padding: 50px 0px;
+}
+.skills {
+  letter-spacing: 10px;
+  padding: 50px 0px;
+  text-align: center;
+}
+.skill-content{
+  padding: 0px 80px 0px 80px;
+}
+.skills{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* skills section ending here */
+
+
+
+
+
+
+
+/* my protfolio section starts here */
+.protfolio {
+  background-color: var(--primary-color);
+}
+
+.protfolio h1 {
+  font-size: 38px;
+  font-family: var(--font-family-poppins);
+  font-weight: 700;
+  letter-spacing: 10px;
+}
+
+.protfolio .content-area {
+  position: relative;
+}
+
+.protfolio .content-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(235, 223, 221, 0.5);
+  transform: scale(0);
+  transition: 4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.protfolio .content-area:hover .content-overlay {
+  transform: scale(1);
+}
+
+.protfolio .content-overlay a {
+  text-decoration: none;
+  color: #212721;
+  font-size: 20px;
+  font-weight: 500;
+  transition: 4s;
+}
+
+.protfolio .content-overlay a:hover {
+  color: rgb(56, 45, 201);
+}
+
+/* my protfolio section ends here */
+
+
+/* service section starts here */
+.service {
+  padding: 50px 0px;
+  background-color: var(--education-background-color);
+}
+
+.service .title h1 {
+  font-size: 38px;
+  font-family: var(--font-family-poppins);
+  font-weight: 700;
+  letter-spacing: 10px;
+  padding: 30px 0px 10px 0px;
+}
+
+.service .title {
+  font-size: 18px;
+  font-family: var(--font-family-open);
+  font-weight: 500;
+  padding: 0px 100px 30px 100px;
+}
+
+.card .content:hover h4,
+.card .content:hover i,
+.card .content:hover p {
+  color: aqua;
+}
+
+.card {
+  padding: 0px 50px 20px 50px;
+  background-color: var(p);
+}
+
+.card .content i {
+  font-size: 22px;
+  padding: 20px 0px 10px 0px;
+}
+
+.card .content h4 {
+  font-size: 18px;
+  font-family: var(--font-family-poppins);
+  font-weight: 500;
+}
+
+.card .content p {
+  font-size: 16px;
+  font-family: var(--font-family-open);
+  font-weight: 400;
+  line-height: 1.4rem;
+  padding-top: 10px;
+}
+
+/* service section ends here */
+
+
+
+
+
+/* address section starts here */
+.contact-heading{
+  position: relative;
+  padding-bottom: .2rem;
+}
+.contact-heading::before{
+  content: '';
+  position: absolute;
+  height: .2rem;
+  width: 10%;
+  background: var(--dark-color);
+  top: 100%;
+  left: 45%;
+}
+.address p, .address a{
+  line-height: 28px;
+  letter-spacing: .5px;
+  font-size: 16px;
+  color: #666;
+  transition: var(---transition);
+}
+.address a:hover{
+  color: var(--dark-color);
+}
+.icon span{
+  color: #30c39e;
+}
+.map iframe {
+  width: 100%;
+  max-height: 260px;
+  border: 5px solid #d6d6d6 !important;
+}
+.contact-right input[type="text"], .contact-right input[type="email"], .contact-right textarea{
+  outline: none;
+  width: 83%;
+  padding: .9em 1.3em;
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: #888;
+  border: none;
+  border: 1px solid #ccc;
+  background: none;
+  margin-bottom: 1.5em;
+border-radius: 5px;
+}
+.contact-right .message{
+  color: var(--text-soft-color);
+}
+
+.contact-right button[type="submit"] {
+  padding: 11px 35px;
+  color: #fff;
+  background: #0a8ea0;
+  border: 2px solid #0a8ea0;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  -ms-border-radius: 4px;
+  float: right;
+  cursor: pointer;
+}
+.contact-right button[type="submit"]:hover {
+  color: #222;
+  background: none;
+border: 2px solid #222;
+}
+.contact label {
+  width: 17%;
+  float: left;
+  color: #333;
+  font-weight: 600;
+}
+.contact label span {
+  color: #30c39e;
+}
+.contact-right textarea {
+  min-height: 120px;
+  resize: none;
+}
+/* address section ending here */
+
+
+
+
+/* footer section starts here */
+.footer{
+  background-color: var(--bd-color);
+  padding: 100px 0px;
+}
+.footer .content{
+  border: none;
+}
+/* footer section ending here */
